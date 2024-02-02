@@ -1,7 +1,110 @@
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
+* {
+    margin: 0;
+}
 
+/*------font-----*/
+a {
+    text-decoration: none;
+}
 
+.ftLine {
+    text-decoration-line: line-through;
+}
+.Ms {
+    font-family: 'Montserrat', sans-serif;
+}
 
-/*colors */
+.Os {
+    font-family: 'Open Sans', sans-serif;
+}
+.Puce {
+    list-style-type: "\002714";
+}
+li > span{
+    padding-left : 20px 
+  }
 
+/*------colors-----*/
+
+/*background*/
+
+.bgBlack {
+    background-color: #232628; 
+}
+.bgorange {
+    background-color: #FAB637; 
+}
+.bgorange2, .hov:hover {
+    background-color: #CC6119; 
+}
+.bgBlue {
+    background-color: #6C98E1; 
+}
+.bgBlack {
+    background-color: #232628; 
+}
+.bgGray {
+    background-color: #ECEFF3; 
+}
+.bgGray2 {
+    background-color: #4f4f4f; 
+}
+.bgGray3 {
+    background-color: #353535; 
+}
+.bgRed {
+    background-color: #FF4848; 
+}
+.op {
+    opacity: 0.8;
+}
+.imgHead {
+    background-image: url("http://localhost/Clubauto/Media/vehicule1.webp");
+    }
+
+/*font*/
+
+.ftwhite, .thovw:hover {
+    color: white;
+}
+.ftOrange {
+    color:#CC6119;
+}
+.ftOrange2 {
+    color:#FAB637;
+}
+.ftBlue {
+    color:#6C98E1;
+}
+.ftBlack {
+    color:#232628;
+}
+.ftGray {
+    color:#ECEFF3;
+}
+.ftGray2 {
+    color:#b8b8b8;
+}
+/*conteneur média*/
+
+.Sicon {
+    width : 35px;
+    height : 35px;
+}
+.SiconX {
+    width : 25px;
+    height : 25px;
+}
+.round {
+    border-radius: 50%;
+    width : 40px;
+    height : 40px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.iconeBan {
+    width : 50px;
+    height : 50px;
+}

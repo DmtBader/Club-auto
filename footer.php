@@ -1,30 +1,33 @@
 
-<footer>
+        <?php
+            include 'link.php';
+        ?>
+<footer class="bgBlack">
     <div>
-        <div>
+        <div class="ftwhite">
             <Div>
-                <p>CLUB <span>AUTO</span></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae corporis numquam aut quibusdam culpa magnam aliquam, animi ipsam suscipit iure eius neque fuga debitis perspiciatis.</p>
+                <p class="ftBlue">CLUB <span class="ftwhite">AUTO</span></p>
+                <p class="ftGray2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae corporis numquam aut quibusdam culpa magnam aliquam, animi ipsam suscipit iure eius neque fuga debitis perspiciatis.</p>
             </Div>
             <Div>
 
             </Div>
             <Div>
                 <p>HORAIRE D'OUVERTURE</p>
-                <p>Lundi - Samedi : 09:00 - 17:00</p>
-                <p>Dimanche et jours fériés : Fermé</p>
+                <p class="ftGray2">Lundi - Samedi : <span class="ftwhite">09:00 - 17:00</span></p>
+                <p class="ftGray2">Dimanche et jours fériés : <span class="ftwhite">Fermé</span></p>
             </Div>
             <Div>
                 <p>NEWSLETTER</p>
                 <div>
                     <form action="#"> <!--qui renvoi vers une requete de traitement formulaire -->
                         <input type="mail" placeholder="Entrez votre émail" nom="email" required>
-                        <button type="submit"><img src="http://localhost/Clubauto/Media/Fluxrss.png" alt="bouton flux RSS orange "></button>
+                        <button type="submit" class="bgorange2"><img src="http://localhost/Clubauto/Media/Fluxrss.png" alt="bouton flux RSS orange "></button>
                         <!--essayer avec <input type="image" src="" alt="">-->
 
                     </form> 
                 </div>
-                <p>Inscrivez-vous pour recevoir les dernières offres</p>
+                <p class="ftGray2">Inscrivez-vous pour recevoir les dernières offres</p>
             </Div>
             <div>
                 <p>RESEAUX SOCIAUX</p>

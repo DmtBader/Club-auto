@@ -1,18 +1,22 @@
         
-        <section>
-            <a href="">
-                <Div><h1>CLUB AUTO</h1></Div>
+        <?php
+            include 'link.php';
+        ?>
+        
+        <section class="bgBlack ftwhite">
+            <a href="http://localhost/Clubauto/index.php">
+                <Div><h1 class="ftwhite">CLUB AUTO</h1></Div>
             </a>
             
             <Div>
-                <img src="http://localhost/Clubauto/Media/icone-adresse.webp" alt="icone adresse localisation orange">
+                <img class="iconeBan" src="http://localhost/Clubauto/Media/icone-adresse.webp" alt="icone adresse localisation orange">
                 <div>
                     <p>ADRESSE:</p>
                     <p>AVENUE CHARLES DE GAULLE <br> 75000 PARIS</p>
                 </div>
             </Div>
             <Div>
-                <img src="http://localhost/Clubauto/Media/icon-telephone.webp" alt="icone téléphone orange">
+                <img class="iconeBan" src="http://localhost/Clubauto/Media/icon-telephone.webp" alt="icone téléphone orange">
                 <div>
                     <p>TÉLÉPHONE:</p>
                     <p>0123456789</p>
@@ -25,12 +29,17 @@
                 </div>
             </Div>
             <Div>
-                <a href="#">
-                    <img src="http://localhost/Clubauto/Media/facebook.png" alt="icone facebook blanc">
-                </a>
-                <a href="#">
-                    <img src="http://localhost/Clubauto/Media/Xtwitter.png" alt="icone X twitter blanc">
-                </a>
+                <div class="bgGray3 round">
+                    <a href="#">
+                        <img class="Sicon" src="http://localhost/Clubauto/Media/facebook.png" alt="icone facebook blanc">
+                    </a>
+                </div>
+                <div class="bgGray3 round">
+                    <a href="#">
+                        <img class="SiconX" src="http://localhost/Clubauto/Media/Xtwitter.png" alt="icone X twitter blanc">
+                    </a>
+                </div>
                 
             </Div>
         </section>
+

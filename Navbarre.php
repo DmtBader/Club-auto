@@ -1,52 +1,56 @@
-        <nav>
+        <?php
+            include 'link.php';
+        ?>
+       
+       <nav class="bgGray op">
             <a href="#">
-                <Div>
-                    <p>ACCUEIL</p>
+                <Div class="hov">
+                    <p class="ftBlack thovw">ACCUEIL</p>
                 </Div>
             </a>
 
             <a href="#">
-                <Div>
-                    <p>VENTE</p>
+                <Div class="hov">
+                    <p class="ftBlack thovw">VENTE</p>
                 </Div>
             </a>
 
             <a href="#">
-                <Div>
-                    <p>LOCATION</p>
+                <Div class="hov">
+                    <p class="ftBlack thovw">LOCATION</p>
                 </Div>
             </a>
 
             <a href="#">
-                <Div>
-                    <p>CONTACT</p>
+                <Div class="hov">
+                    <p class="ftBlack thovw">CONTACT</p>
                 </Div>
             </a>
                 
         </nav>
 
-        <nav>
+        <nav class="bgGray op">
             <a href="#">
                 <Div>
-                    <p>ACCUEIL</p>
+                    <p class="ftBlack">ACCUEIL</p>
                 </Div>
             </a>
 
             <a href="#">
                 <Div>
-                    <p>VENTE</p>
+                    <p class="ftBlack">VENTE</p>
                 </Div>
             </a>
 
             <a href="#">
                 <Div>
-                    <p>LOCATION</p>
+                    <p class="ftBlack">LOCATION</p>
                 </Div>
             </a>
 
             <a href="#">
                 <Div>
-                    <p>CONTACT</p>
+                    <p class="ftBlack">CONTACT</p>
                 </Div>
             </a>
                 
