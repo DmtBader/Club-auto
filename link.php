@@ -1,4 +1,5 @@
     <link rel="icon" type="png" href="http://localhost/Clubauto/Media/icon2.png" />
+    <link rel="stylesheet" href="http://localhost/Clubauto/Style/normalize.css">
     <link rel="stylesheet" href="http://localhost/Clubauto/Style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

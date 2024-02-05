@@ -15,10 +15,11 @@
 
 <body>
     <header>
-       
-        <?php
-            include 'banniere.php';
-        ?>
+        <Div>
+            <?php
+                include 'banniere.php';
+            ?>
+        </Div>
         <Div class="imgHead"> 
             <?php
                 include 'navbarre.php';
@@ -65,8 +66,7 @@
             </Div>
        </section>
 
-       <section class="bgBlack"> <!--ici normalement devrai ce trouver du php et requete sql/bdd pour l'affichage des dernier véhicule ajouté
-                  on va ce contenter pour l'exercice du html/css avec un hidden en media query pour version mobile, on pourrait faire un slider pour l'affichage mobile-->
+       <section class="bgBlack"> 
             <div>
                 <div><h2 class="ftwhite">VEHICULES RECENTS</h2></div>
                 <div>
