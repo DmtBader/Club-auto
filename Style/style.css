@@ -43,6 +43,9 @@ li > span{
 .bgGray {
     background-color: #ECEFF3; 
 }
+.bgGrayOp {
+    background-color: rgba(236, 239, 243, 0.8);
+}
 .bgGray2 {
     background-color: #4f4f4f; 
 }
@@ -56,12 +59,25 @@ li > span{
     opacity: 0.8;
 }
 .imgHead {
-    background-image: url("http://localhost/Clubauto/Media/vehicule1.webp");
-    }
+    background-image:url("http://localhost/Clubauto/Media/vehicule1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgsec2 {
+    background-image:url("http://localhost/Clubauto/Media/voiture3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgsec3 {
+    background-image:url("http://localhost/Clubauto/Media/voiture4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*font-  colors*/
 
-.ftwhite, .thovw:hover {
+.ftwhite, .hovWhite:hover p {
     color: white;
 }
 .ftOrange {
@@ -82,7 +98,9 @@ li > span{
 .ftGray2 {
     color:#b8b8b8;
 }
-/*conteneur taille média*/
+
+
+/*conteneur taille*/
 
 .Sicon {
     width : 35px;
@@ -96,17 +114,6 @@ li > span{
     border-radius: 50%;
     width : 40px;
     height : 40px;
-}
-.centerX2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Tcenter {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .iconeBan {
@@ -127,7 +134,48 @@ li > span{
     width: 280px;
 }
 
+.navH {
+    height: 40px;
+}
 
+.maxXW {
+    width: 100px;
+    height: 40px;
+}
+
+.imgnav {
+    height: 600px;
+}
+
+.Tsec2 {
+    height: 420px;
+}
+
+
+.imgcont2 {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+}
+
+.z1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.z2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.z3 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.z4 {
+    grid-column: 2;
+    grid-row: 2;
+}
 
 /*conteneur orientation*/
 
@@ -140,3 +188,35 @@ li > span{
     display : flex;
     flex-direction: column;
 }
+.ContD {
+    float: right;
+}
+
+.centerX2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tcenter {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerD {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.centerV {
+    display: flex;
+    align-items: center;
+}
+
+.endCont{
+    display: flex;
+    justify-content:end;
+}
+/*----------margin--------*/
