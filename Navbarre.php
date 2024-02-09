@@ -3,7 +3,7 @@
         ?>
        
        <nav class="bgGrayOp navH ">
-            <div class="marLR centerD inLine">
+            <div class="marLR centerD inLine b900 FS">
                 <a href="#">
                     <Div class="hov maxXW centerX2 hovWhite">
                         <p class="ftBlack">ACCUEIL</p>

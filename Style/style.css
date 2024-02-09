@@ -9,20 +9,53 @@ a {
 .Ms, body {
     font-family: 'Montserrat', sans-serif;
 }
+.b900 {
+    font-weight: 900;
+}
+.B800 {
+    font-weight: 800;
+}
+.b700 {
+    font-weight: 700;
+}
 .b600 {
     font-weight: 600;
+}
+.b500 {
+    font-weight: 500;
 }
 .b300 {
     font-weight: 300;
 }
+.b100 {
+    font-weight: 100;
+}
+.FxxL {
+    font-size: xx-large;
+}
 .FxL {
     font-size:x-large;
+}
+.FLar {
+    font-size:135%
+}
+.Fli {
+    font-size: 70%;
+}
+.FSs {
+    font-size: 75%;
+}
+.FL {
+    font-size: large;
 }
 .FxS {
     font-size:x-small;
 }
 .FS {
     font-size: small;
+}
+.Fm {
+    font-size: medium;
 }
 
 .Os {
@@ -36,6 +69,7 @@ a {
 li > span{
     padding-left : 20px 
   }
+
 /*background - color*/
 .bgBlack {
     background-color: #232628; 
@@ -69,6 +103,12 @@ li > span{
 }
 .op {
     opacity: 0.8;
+}
+.op2 {
+    opacity: 0.5;
+}
+.op3 {
+    opacity: 0.75;
 }
 /*background img*/
 .imgHead {
@@ -108,30 +148,37 @@ li > span{
 .ftGray2 {
     color:#b8b8b8;
 }
+.ftGray3 {
+    color:#6d6d6d;
+}
 /*conteneur taille*/
 .secblue {
     width : 80px;
-    height : 40px;
+    height : 36px;
 }
 .secblue2 {
     width : 200px;
-    height : 30px;
+    height : 40px;
 }
 .Sicon {
-    width : 35px;
-    height : 35px;
-}
-.SiconX {
     width : 25px;
     height : 25px;
 }
+.SiconX {
+    width : 15px;
+    height : 15px;
+}
+.Sicon2 {
+    width : 35px;
+    height : 35px;
+}
 .round {
-   width : 40px;
-    height : 40px;
+    width : 35px;
+    height : 32px;
 }
 .iconeBan {
-    width : 44px;
-    height : 42px;
+    width : 64px;
+    height : 50px;
 }
 .contBan {
     width: 100%;
@@ -146,13 +193,19 @@ li > span{
     height: auto;
 }
 .contBan2 {
+    width: 240px;
+}
+.contLogo {
     width: 200px;
 }
 .contBan3 {
     width: 280px;
 }
 .contBan4 {
-    width: 160px;
+    width: 190px;
+}
+.contBan1 {
+    width: 300px;
 }
 .navH {
     height: 56px;
@@ -233,8 +286,13 @@ li > span{
 .centerX2,
 .incolumn,
 .inLine,
-.CenterH {
+.CenterH,
+.FEnd {
     display: flex;
+}
+
+.FEnd {
+    align-items: flex-end;
 }
 
 /*----------margin--------*/
@@ -269,6 +327,9 @@ li > span{
 .marB50 {
     margin-bottom: 50px;
 }
+.marB80 {
+    margin-bottom: 80px;
+}
 .marB8 {
     margin-bottom: 8px;
 }
@@ -297,7 +358,10 @@ li > span{
     margin-left: 20px;
     margin-right: 20px;
 }
-
+.marLRBan {
+    margin-left: 140px;
+    margin-right: 140px;
+}
 .mar0 {
     margin: 0;
 }
@@ -311,7 +375,7 @@ li > span{
     border-bottom: solid;
 }
 .borbot {
-    border-color: #b8b8b8;
+    border-color: #494949;
 }
 .borbotO {
     border-color: #CC6119;
