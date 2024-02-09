@@ -2,8 +2,8 @@
             include 'link.php';
         ?>
        
-       <nav class="bgGrayOp navH centerD inLine">
-            
+       <nav class="bgGrayOp navH ">
+            <div class="marLR centerD inLine">
                 <a href="#">
                     <Div class="hov maxXW centerX2 hovWhite">
                         <p class="ftBlack">ACCUEIL</p>
@@ -27,6 +27,7 @@
                         <p class="ftBlack">CONTACT</p>
                     </Div>
                 </a>
+            </div>
             
         </nav>
 

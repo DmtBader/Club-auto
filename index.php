@@ -20,30 +20,30 @@
                 include 'banniere.php';
             ?>
         </Div>
-        <Div class="imgHead imgnav"> 
+        <Div class="imgHead imgnav">
             <?php
                 include 'navbarre.php';
             ?>
         </Div>
 
-        <Div class="bgBlack contBan centerV"><h2 class="ftwhite">CLUB AUTO <span class="ftOrange">LE MEILLEUR DE L'AUTOMOBILE</span></h2></Div>
+        <Div class="bgBlack contBan centerV contsec"><h2 class="ftwhite marL">CLUB AUTO <span class="ftOrange">LE MEILLEUR DE L'AUTOMOBILE</span></h2></Div>
     </header>
 
     <main>
-        <section class="contsec bgGray grid padsec2">
-           
-                <Div class="centerX2 z1"> <img class="imgcont2" src="http://localhost/Clubauto/Media/clients.webp" alt="clients qui exprime leurs avec un geste de victoire devant un véhicule"></Div>
-                <Div class="z2">
-                    <h3>BIENVENU CHEZ <span class="ftOrange">CLUB AUTO</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore dolorem voluptatibus!</p>
+        <section class="contBanH">
+            <div class="grid2c gap3 marLR marSec1">
+                <Div class="centerX2"> <img class="imgcont2" src="http://localhost/Clubauto/Media/clients.webp" alt="clients qui exprime leurs avec un geste de victoire devant un véhicule"></Div>
+                <Div class="">
+                    <h3 class="marB20">BIENVENU CHEZ <span class="ftOrange">CLUB AUTO</span></h3>
+                    <p class="marB20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore dolorem voluptatibus!</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, at eligendi unde iure ipsum, sit, doloribus dolorem voluptatum quidem laborum quaerat cupiditate dolore assumenda in consequuntur. Labore quod consequuntur harum velit suscipit repellat, totam atque quasi nam quis fugit ut?</p>
                 </Div>
            
             
-                <Div class="z3">
-                    <h3>LE MEILLEUR DE L'AUTOMOBILE</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, magni. Nisi, sed libero laudantium accusamus minus tempore reprehenderit nam, doloribus dignissimos eaque cumque tenetur, quo consectetur dolores beatae voluptatibus aspernatur?</p>
-                    <ul class="Puce ftOrange">
+                <Div class="">
+                    <h3 class="borbot marB20 padB20">LE MEILLEUR DE L'AUTOMOBILE</h3>
+                    <p class="marB20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, magni. Nisi, sed libero laudantium accusamus minus tempore reprehenderit nam, doloribus dignissimos eaque cumque tenetur, quo consectetur dolores beatae voluptatibus aspernatur?</p>
+                    <ul class="Puce ftOrange gap4">
                         <li><span class="ftBlack">Lorem ipsum dolor sit amet.</span> </li>
                         <li><span class="ftBlack">Lorem ipsum dolor sit amet.</span> </li>
                         <li><span class="ftBlack">Lorem ipsum dolor sit amet.</span> </li>
@@ -51,54 +51,56 @@
                         <li><span class="ftBlack">Lorem ipsum dolor sit amet.</span> </li>
                     </ul>
                 </Div>
-                <Div class="centerX2 z4"><img class="imgcont2" src="http://localhost/Clubauto/Media/entretien.webp" alt="technicien qui nettoie un véhicule avec précision, le regard dans le prolongement du véhicule"></Div>
-            
+                <Div class="centerX2"><img class="imgcont2" src="http://localhost/Clubauto/Media/entretien.webp" alt="technicien qui nettoie un véhicule avec précision, le regard dans le prolongement du véhicule"></Div>
+            </div>
         </section>
 
-        <section class="imgsec2 Tsec2"> <!--2eme section background et 2 conteneurs-->
-            <Div class="bgorange">
-                <h3>Vous souhaitez louer ?</h3>
-                <p class="ftwhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ratione asperiores quidem aperiam deserunt incidunt, eligendi ad? Magnam dolorem fugiat eum in? Eaque, laudantium accusantium.</p>
-            </Div>
-            <Div class="bgRed op">
-                <h3>Vous souhaitez achetez ?</h3>
-                <p class="ftwhite">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil consequatur aliquid quaerat molestiae illo doloribus suscipit ut dolorum perspiciatis, ratione omnis ea ducimus asperiores iure.</p>
-            </Div>
+        <section class="imgsec2 centerX2 Tsec2">
+            <div class="grid2c gap3 marLR">
+                <Div class="bgorange Pad50">
+                    <h3 class="marB20">Vous souhaitez louer ?</h3>
+                    <p class="ftwhite">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ratione asperiores quidem aperiam deserunt incidunt, eligendi ad? Magnam dolorem fugiat eum in? Eaque, laudantium accusantium.</p>
+                </Div>
+                <Div class="bgRed Pad50">
+                    <h3 class="marB20">Vous souhaitez achetez ?</h3>
+                    <p class="ftwhite">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil consequatur aliquid quaerat molestiae illo doloribus suscipit ut dolorum perspiciatis, ratione omnis ea ducimus asperiores iure.</p>
+                </Div>
+            </div>
        </section>
 
-       <section class="bgBlack"> 
-            <div>
-                <div><h2 class="ftwhite">VEHICULES RECENTS</h2></div>
-                <div>
+       <section class="bgBlack centerX2 incolumn"> 
+            <div class="marLR marB8 marT30">
+                <div class="centerX2 borbotO"><h2 class="ftwhite padB20">VEHICULES RECENTS</h2></div>
+                <div class="grid3c gap3 marT20">
                     <a href="http://localhost/Clubauto/détail.php">
                         <div>
-                            <img src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
-                            <div class="bgGray2">
-                                <div class="ftwhite"><!--div border bottom -->
-                                    <p>BMW 535I, NAVI, LEATHER, ABS</p>
-                                    <div class="bgBlue"><p>5 500 €</p></div>
+                            <img class="imgcont2 marB8" src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
+                            <div class="bgGray2 Pad20 ">
+                                <div class="ftwhite inLine borbot">
+                                    <p class="marR30">BMW 535I, NAVI, LEATHER, ABS</p>
+                                    <div class="bgBlue secblue centerX2 round2 marB20"><p>5 500 €</p></div>
                                 </div>   
                             </div>
                         </div>
                     </a>
                     <a href="http://localhost/Clubauto/détail.php">
                         <div>
-                            <img src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
-                            <div class="bgGray2">
-                                <div class="ftwhite"><!--div border bottom -->
-                                    <p>BMW 328I, SPORT LINE BODY KIT</p>
-                                    <div class="bgBlue"><p>8 000 €</p></div>
+                            <img class="imgcont2 marB8" src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
+                            <div class="bgGray2 Pad20">
+                                <div class="ftwhite inLine borbot">
+                                    <p class="marR30">BMW 328I, SPORT LINE BODY KIT</p>
+                                    <div class="bgBlue secblue centerX2 round2 marB20"><p>8 000 €</p></div>
                                 </div>
                             </div>
                         </div>
                     </a>
                     <a href="http://localhost/Clubauto/détail.php">
                         <div>
-                            <img src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
-                            <div class="bgGray2">
-                                <div class="ftwhite"><!--div border bottom -->
-                                    <p>FORD EXPLORER 2015 4WD</p>
-                                    <div class="bgBlue"><p class="ftLine ftBlack">9 000€</p><p>8 200 €</p></div>
+                            <img class="imgcont2 marB8" src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
+                            <div class="bgGray2 Pad20">
+                                <div class="ftwhite inLine borbot"><!--div border bottom -->
+                                    <p class="marR30">FORD EXPLORER 2015 4WD</p>
+                                    <div class="bgBlue secblue centerX2 incolumn round2 marB20"><p class="ftLine ftBlack">9 000€</p><p>8 200 €</p></div>
                                 </div>
                             </div>
                         </div>
@@ -107,51 +109,52 @@
             </div>
         </section>
 
-        <section class="">
-
-            <div><h2>Pourquoi nous choisir ?</h2></div>
-            
-            <div>
-                <div>
-                    <img src="http://localhost/Clubauto/Media/icon1.webp" alt="icone étiquette orange">
-                    <div>
-                        <p>FINANCEMENT</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore quia fuga fugiat, excepturi esse dicta soluta expedita dolore accusamus ipsa, voluptatem autem similique doloribus!</p>
+        <section class="centerX2 incolumn">
+            <div class="marLR marTB40">
+                <div class="centerX2 marB50"><h2>Pourquoi nous choisir ?</h2></div>
+                
+                <div class="grid4c marB50">
+                    <div class="inLine">
+                        <img class="iconeBan" src="http://localhost/Clubauto/Media/icon1.webp" alt="icone étiquette orange">
+                        <div class="marLR20">
+                            <p class="marB10">FINANCEMENT</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore quia fuga fugiat.</p>
+                        </div>
+                    </div>
+                    <div class="inLine">
+                        <img  class="iconeBan" src="http://localhost/Clubauto/Media/icon2.webp" alt="icone compteur automobile orange">
+                        <div class="marLR20">
+                            <p class="marB10">RÉACTIVITÉ DE L'ÉQUIPE TECHNIQUE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, unde dolore consequuntur.</p>
+                        </div>
+                    </div>
+                    <div class="inLine">
+                        <img  class="iconeBan" src="http://localhost/Clubauto/Media/icon3.webp" alt="icone bulle de discussion orange">
+                        <div class="marLR20">
+                            <p class="marB10">A L'ÉCOUTE DE NOTRE CLIENTÈLE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus maxime nobis repellat.</p>
+                        </div>
+                    </div>
+                    <div class="inLine">
+                        <img  class="iconeBan" src="http://localhost/Clubauto/Media/icon4.webp" alt="icone carnet de note orange">
+                        <div class="marLR20">
+                            <p class="marB10">SERVICE & MAINTENANCE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla nobis vel soluta quia.</p>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <img src="http://localhost/Clubauto/Media/icon2.webp" alt="icone compteur automobile orange">
-                    <div>
-                        <p>RÉACTIVITÉ DE L'ÉQUIPE TECHNIQUE</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, unde dolore consequuntur ratione aperiam enim obcaecati labore excepturi quam, earum id, maxime totam cum tempore?</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="http://localhost/Clubauto/Media/icon3.webp" alt="icone bulle de discussion orange">
-                    <div>
-                        <p>A L'ÉCOUTE DE NOTRE CLIENTÈLE</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus maxime nobis repellat doloribus vel qui laboriosam ipsa illum suscipit, libero voluptatum deserunt aspernatur distinctio fugiat.</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="http://localhost/Clubauto/Media/icon4.webp" alt="icone carnet de note orange">
-                    <div>
-                        <p>SERVICE & MAINTENANCE</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla nobis vel soluta quia odit odio ut mollitia fugiat nostrum aut ea, dicta esse quo.</p>
-                    </div>
-                </div>
+                <a  class="centerX2" href="http://localhost/Clubauto/contact.php">
+                    <div class="bgBlue ftwhite round2 secblue2 centerX2">CONTACTEZ NOUS</div>
+                </a>
             </div>
-
-            <a href="">
-                <div class="bgBlue ftwhite">CONTACTEZ NOUS</div>
-            </a>
-
         </section>
 
-        <section  class="imgsec3 Tsec2"> <!--5eme section 1 conteneur avec transparence et background en fond-->
-            <div class="bgorange op">
-                <h2>CLUB AUTO<br><span class="ftwhite">VENTE ET LOCATION</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur et vel eaque. Fugit vitae inventore architecto alias velit totam magnam sint dignissimos vero quis, necessitatibus porro cumque, corrupti culpa voluptates? Est qui deleniti nemo cum!</p>
+        <section class="imgsec3 centerV">
+            <div class="marLR marTB60">
+                <div class="bgorange op timgsec5 Pad50">
+                    <h2 class="marB10">CLUB AUTO<br><span class="ftwhite">VENTE ET LOCATION</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur et vel eaque. Fugit vitae inventore architecto alias velit totam magnam sint dignissimos vero quis, necessitatibus porro cumque, corrupti culpa voluptates? Est qui deleniti nemo cum!</p>
+                </div>
             </div>
         </section> 
 
