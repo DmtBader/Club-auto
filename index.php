@@ -152,8 +152,9 @@
         <section class="imgsec3 centerV">
             <div class="marLR marTB60">
                 <div class="bgorange op timgsec5 Pad50">
-                    <h2 class="marB10">CLUB AUTO<br><span class="ftwhite">VENTE ET LOCATION</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur et vel eaque. Fugit vitae inventore architecto alias velit totam magnam sint dignissimos vero quis, necessitatibus porro cumque, corrupti culpa voluptates? Est qui deleniti nemo cum!</p>
+                    <h2 class="marB10 b700 FxxL">CLUB AUTO<br>
+                    <span class="ftwhite SpanDelM">VENTE ET LOCATION</span></h2>
+                    <p class="b600 Fli">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur et vel eaque. Fugit vitae inventore architecto alias velit totam magnam sint dignissimos vero quis, necessitatibus porro cumque, corrupti culpa voluptates? Est qui deleniti nemo cum!</p>
                 </div>
             </div>
         </section> 

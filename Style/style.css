@@ -58,6 +58,7 @@ a {
     font-size: medium;
 }
 
+
 .Os {
     font-family: 'Open Sans', sans-serif;
 }
@@ -92,7 +93,9 @@ li > span{
 .bgGrayOp {
     background-color: rgba(236, 239, 243, 0.8);
 }
-.bgGray2, .bgBlue:hover {
+.bgGray2, 
+.bgBlue:hover,
+.bgorange2:hover {
     background-color: #4f4f4f; 
 }
 .bgGray3 {
@@ -168,7 +171,15 @@ li > span{
     width : 15px;
     height : 15px;
 }
-.Sicon2 {
+.SiconZ {
+    width : 21px;
+    height : 21px;
+}
+.SiconF {
+    width : 30px;
+    height : 30px;
+}
+.cSiconF, .Sicon2 {
     width : 35px;
     height : 35px;
 }
@@ -182,6 +193,9 @@ li > span{
 }
 .contBan {
     width: 100%;
+}
+.gap2 {
+    gap: 2.5%;
 }
 .gap3 {
     gap: 2%;
@@ -251,6 +265,12 @@ li > span{
 .grid5c {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+#inp {
+    width: 180px;
+    height: 28px;
+    padding-left: 10px;
+    font-weight: 600;
+}
 /*conteneur orientation*/
 .inLine{
     flex-direction : row;
@@ -309,7 +329,9 @@ li > span{
 .marT30 {
     margin-top: 30px;
 }
-
+.marT60 {
+    margin-top: 60px;
+}
 .marTB40 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -323,6 +345,9 @@ li > span{
 }
 .marB20 {
     margin-bottom: 20px;
+}
+.marT20 {
+    margin-top: 20px;
 }
 .marB50 {
     margin-bottom: 50px;
@@ -341,6 +366,9 @@ li > span{
 }
 .padT20 {
     padding-top: 20px;
+}
+.padB30 {
+    padding-bottom: 30px;
 }
 .marSec1 {
     margin-top: 50px;
