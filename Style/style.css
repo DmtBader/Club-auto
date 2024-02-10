@@ -219,6 +219,9 @@ li > span{
 .imgnav {
     height: 600px;
 }
+.ban2H {
+    height: 80px;
+}
 .imgcont2 {
     width: 100%;
 }
@@ -230,16 +233,19 @@ li > span{
     display: grid;
 }
 .grid2c {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 30px;
 }
 .grid4c {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    row-gap: 30px;
 }
 .grid3c {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(266px, 1fr));
 }
 .grid5c {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    row-gap: 30px;
 }
 #inp {
     width: 180px;
@@ -271,7 +277,7 @@ li > span{
 }
 .endCont, .centerV,.centerD,.Tcenter,
 .centerX2,.incolumn,.inLine,.CenterH,
-.FEnd {
+.FEnd,.ban2End {
     display: flex;
 }
 .FEnd {
@@ -353,6 +359,18 @@ li > span{
     margin-left: 140px;
     margin-right: 140px;
 }
+@media screen and (max-width: 1060px) {
+    .marLRBan,.marL,.marLR,.marR {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .marLRBan,.marL,.marLR,.marR {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 .mar0 {
     margin: 0;
 }
@@ -374,4 +392,23 @@ li > span{
 }
 .round {
     border-radius: 50%;
+}
+/*-------responsive------*/
+#banRes {
+    display: none;
+}
+@media screen and (max-width: 1060px) {
+    #banRes {
+        display:block;
+    }
+}
+@media screen and (max-width: 1060px) {
+    #banVis,#navRes {
+        display: none;
+    }
+}
+@media screen and (max-width: 720px) {
+    .none {
+        display: none;
+    }
 }

@@ -20,13 +20,13 @@
                 include 'banniere.php';
             ?>
         </Div>
-        <Div class="imgHead imgnav">
+        <Div  id="navRes" class="imgHead imgnav">
             <?php
                 include 'navbarre.php';
             ?>
         </Div>
 
-        <Div class="bgBlack centerV padB20 padT20 FLar"><h2 class="ftwhite marL">CLUB AUTO <span class="ftOrange">LE MEILLEUR DE L'AUTOMOBILE</span></h2></Div>
+        <Div class="bgBlack padB20 padT20 FLar"><h2 class="ftwhite marL">CLUB AUTO <span class="ftOrange">LE MEILLEUR DE L'AUTOMOBILE</span></h2></Div>
     </header>
 
     <main>
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="http://localhost/Clubauto/détail.php">
+                    <a class="none" href="http://localhost/Clubauto/détail.php">
                         <div>
                             <img class="imgcont2 marB8" src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
                             <div class="bgGray3 Pad20">
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="http://localhost/Clubauto/détail.php">
+                    <a class="none" href="http://localhost/Clubauto/détail.php">
                         <div>
                             <img class="imgcont2 marB8" src="http://localhost/Clubauto/Media/vehicule2.webp" alt="véhicule audi vu de profils droit">
                             <div class="bgGray3 Pad20">
@@ -109,37 +109,37 @@
             </div>
         </section>
 
-        <section class="centerX2 incolumn">
+        <section class="incolumn">
             <div class="marLR marTB40">
-                <div class="centerX2 marB80 b700 FLar"><h2>Pourquoi nous choisir ?</h2></div>
+                <div class="marB80 b700 FLar centerX2"><h2>Pourquoi nous choisir ?</h2></div>
                 
                 <div class="grid4c marB50">
                     <div class="inLine">
                         <img class="iconeBan" src="http://localhost/Clubauto/Media/icon1.webp" alt="icone étiquette orange">
                         <div class="marLR20">
                             <p class="marB10 B800 FSs">FINANCEMENT</p>
-                            <p class="b600 Fli op2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore quia fuga fugiat.</p>
+                            <p class="b600 Fli op2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quas, expedita possimus veniam deleniti maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus inventore quia fuga fugiat.</p>
                         </div>
                     </div>
                     <div class="inLine">
                         <img  class="iconeBan" src="http://localhost/Clubauto/Media/icon2.webp" alt="icone compteur automobile orange">
                         <div class="marLR20">
                             <p class="marB10 B800 FSs">RÉACTIVITÉ DE L'ÉQUIPE TECHNIQUE</p>
-                            <p class="b600 Fli op2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, unde dolore consequuntur.</p>
+                            <p class="b600 Fli op2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos est voluptatem id omnis veritatis unde.Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, unde dolore consequuntur.</p>
                         </div>
                     </div>
                     <div class="inLine">
                         <img  class="iconeBan" src="http://localhost/Clubauto/Media/icon3.webp" alt="icone bulle de discussion orange">
                         <div class="marLR20">
                             <p class="marB10 B800 FSs">A L'ÉCOUTE DE NOTRE CLIENTÈLE</p>
-                            <p class="b600 Fli op2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus maxime nobis repellat.</p>
+                            <p class="b600 Fli op2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quasi officiis similique accusamus deleniti exercitationem.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus maxime nobis repellat.</p>
                         </div>
                     </div>
                     <div class="inLine">
                         <img  class="iconeBan" src="http://localhost/Clubauto/Media/icon4.webp" alt="icone carnet de note orange">
                         <div class="marLR20">
                             <p class="marB10 B800 FSs">SERVICE & MAINTENANCE</p>
-                            <p class="b600 Fli op2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla nobis vel soluta quia.</p>
+                            <p class="b600 Fli op2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia impedit eius sapiente ipsam eligendi ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nulla nobis vel soluta quia.</p>
                         </div>
                     </div>
                 </div>

@@ -3,9 +3,9 @@
             include 'link.php';
         ?>
         
-        <section class="bgBlack ftwhite CenterH">
+        <section id="banVis" class="bgBlack ftwhite CenterH">
             <div class="inLine  marLRBan padB20 padT20 gap3 grid5c">
-                    <a  class="centerD" href="http://localhost/Clubauto/index.php">
+                    <a href="http://localhost/Clubauto/index.php">
                         <Div class="contLogo"><h1 class="ftwhite mar0 B800">CLUB AUTO</h1></Div>
                     </a>
                     <Div class="inLine gap3 contBan3">
@@ -44,4 +44,13 @@
                 
             </div>    
         </section>
+                <section id="banRes" class="bgBlack ftwhite ban2">
+                    <Div class="inLine gap3 b600 marLR20">
+                        <img class="Sicon2" src="http://localhost/Clubauto/Media/icon-telephone.webp" alt="icone téléphone orange">
+                        <div class="FxS">
+                            <p class="ftOrange">TÉLÉPHONE :</p>
+                            <p class="FL">01 23 45 67 89</p>
+                        </div>
+                    </Div>
+                </section>
 
