@@ -55,8 +55,8 @@
             </div>
         </section>
 
-        <section class="imgsec2 centerX2 Tsec2">
-            <div class="grid2c gap3 marLR">
+        <section class="imgsec2 centerX2">
+            <div class="grid2c gap3 marLR marTB120">
                 <Div class="bgorange Pad50">
                     <h3 class="marB20 B800 FLar">Vous souhaitez louer ?</h3>
                     <p class="ftwhite FxS">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum ratione asperiores quidem aperiam deserunt incidunt, eligendi ad? Magnam dolorem fugiat eum in? Eaque, laudantium accusantium Lorem ipsum dolor sit amet. Lorem .</p>
